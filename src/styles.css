@@ -1,4 +1,25 @@
-.App {
+body {
+  overflow-x: hidden;
   font-family: sans-serif;
   text-align: center;
+}
+
+.App p {
+  margin-top: 0;
+}
+
+button {
+  border: none;
+  background-color: cornflowerblue;
+  color: #fff;
+  padding: 0.5em 1.5em;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.second-button {
+  background-color: darkgoldenrod;
+  display: block;
+  margin: 1rem auto;
 }
